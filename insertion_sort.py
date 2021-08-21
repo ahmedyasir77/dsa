@@ -49,5 +49,5 @@ def insertion_sort_three(elements):
         elements[j+1] = key
     return elements
 
-print(insertion_sort_three([4,8,98,52,484,3521,384,5,168,413,13,41]))
+print(insertion_sort_three([9,8,7,6,5,4,3,2,1,0]))
             
