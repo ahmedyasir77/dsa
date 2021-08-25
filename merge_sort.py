@@ -4,7 +4,7 @@
 # 3. Merge both sorted halves into one sorted array
 
 # First implementation
-"""
+
 def merge_sort(arr):
     if len(arr) >  1:
         # // is floor division in python - it rounds the result to the nearest whole number 
@@ -43,7 +43,7 @@ def merge_sort(arr):
 arr_test = [9,8,7,6,5,4,3,2,1]
 merge_sort(arr_test)
 print(arr_test)
-"""
+
 # Second implementation - Same logic but variables that make more sense
 
 def mergeSort(my_list):
@@ -92,5 +92,7 @@ my_list = [9,8,7,6,5,4,3,2,1]
 mergeSort(my_list)
 print(my_list)
 
-
+my_list_two = [21,54,76,12,98,32,53,65,90,21,57]
+merge_sort(my_list_two)
+print(my_list_two)
 
