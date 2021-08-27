@@ -96,3 +96,7 @@ my_list_two = [21,54,76,12,98,32,53,65,90,21,57]
 merge_sort(my_list_two)
 print(my_list_two)
 
+my_list_three = [60, 70, 32, 45, 68]
+mergeSort(my_list_three)
+print(my_list_three)
+
