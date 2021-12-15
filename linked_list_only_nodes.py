@@ -17,6 +17,7 @@ node3 = linkedListNode("10")
 node4 = linkedListNode("12")
 node5 = linkedListNode("14")
 node6 = linkedListNode("16")
+node7 = linkedListNode("18")
 
 
 node1.nextNode = node2 # node1 --> node2, "3" --> "7" 
@@ -24,6 +25,7 @@ node2.nextNode = node3 # node2 --> node3, "7" --> "10"
 node3.nextNode = node4
 node4.nextNode = node5
 node5.nextNode = node6
+node6.nextNode = node7 
 
 # node1 --> node2 --> node3
 
